@@ -1,0 +1,8 @@
+
+servers : 172.32.0.2:11211,172.32.0.3:11211,172.34.0.2:11211,172.34.0.3:11211
+threads count: 16
+concurrency: 512
+run time: 60s
+windows size: 10k
+set proportion: set_prop=0.50
+get proportion: get_prop=0.50
