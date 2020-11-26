@@ -15,6 +15,7 @@ done
 echo "" | dd status=none of=$FILE_PATH conv=notrunc oflag=append
 
 echo "*** Main shell start ***"
+sleep 1s
 
 echo "Sampling Container CPU..."
 ./sample-vcpu.sh $NUM_NODES &
