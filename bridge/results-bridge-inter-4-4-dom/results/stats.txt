@@ -1,0 +1,18 @@
+m1:veth175f7c3
+m0:veth2ccdb96
+
+servers : 172.32.0.2:11211,172.32.0.3:11211,172.34.0.2:11211,172.34.0.3:11211
+threads count: 16
+concurrency: 512
+execute number: 100000000
+windows size: 10k
+set proportion: set_prop=0.50
+get proportion: get_prop=0.50
+cmd_get: 49999872
+cmd_set: 49999872
+get_misses: 0
+written_bytes: 60399845376
+read_bytes: 53799862272
+object_bytes: 54399860736
+
+Run time: 238.6s Ops: 99999744 TPS: 419031 Net_rate: 456.4M/s
