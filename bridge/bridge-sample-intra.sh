@@ -25,7 +25,7 @@ echo "" | dd status=none of=$FILE_PATH conv=notrunc oflag=append
 echo "*** Main shell start ***"
 
 echo "Launching BENCHMARK..."
-../../../memcached_bench/libmemcached-1.0.15/clients/memaslap -s ${IPADDRESS1}:${PORT},${IPADDRESS2}:${PORT},${IPADDRESS3}:${PORT},$IPADDRESS4:${PORT} -c ${CONCURRENCY} -B -T ${THREADS} -t 60s | dd status=none of=$FILE_PATH conv=notrunc oflag=append &
+./benchmark-intra.sh &
 
 echo "Sampling Container CPU..."
 ./sample-vcpu.sh $NUM_NODES &

@@ -4,14 +4,6 @@ NUM_NODES=2
 FILE_PATH=./results/stats.txt
 VETH_LIST=()
 
-IPADDRESS1=172.32.0.2
-IPADDRESS2=172.32.0.3
-IPADDRESS3=172.34.0.2
-IPADDRESS4=172.34.0.3
-PORT=11211
-THREADS=16
-CONCURRENCY=512
-
 for container in $(docker ps --format '{{.Names}}'); do
     iflink=`docker exec -it $container bash -c 'cat /sys/class/net/eth0/iflink'`
     iflink=`echo $iflink|tr -d '\r'`
@@ -25,7 +17,8 @@ echo "" | dd status=none of=$FILE_PATH conv=notrunc oflag=append
 echo "*** Main shell start ***"
 
 echo "Launching BENCHMARK..."
-../../../memcached_bench/libmemcached-1.0.15/clients/memaslap -s ${IPADDRESS1}:${PORT},${IPADDRESS2}:${PORT},${IPADDRESS3}:${PORT},$IPADDRESS4:${PORT} -c ${CONCURRENCY} -B -T ${THREADS} -t 61s | dd status=none of=$FILE_PATH conv=notrunc oflag=append &
+./benchmark-inter.sh &
+sleep 1s
 
 echo "Sampling Container CPU..."
 ./sample-vcpu.sh $NUM_NODES &

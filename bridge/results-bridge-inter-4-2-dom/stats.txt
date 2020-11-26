@@ -1,18 +1,18 @@
-m1:veth64c611a
-m0:vethe27b51f
+m1:vethd2287f8
+m0:vethec30dc4
 
 servers : 172.32.0.2:11211,172.32.0.3:11211,172.34.0.2:11211,172.34.0.3:11211
 threads count: 16
 concurrency: 512
-run time: 60s
+execute number: 100000000
 windows size: 10k
 set proportion: set_prop=0.50
 get proportion: get_prop=0.50
-cmd_get: 12903993
-cmd_set: 12904254
+cmd_get: 49999872
+cmd_set: 49999872
 get_misses: 0
-written_bytes: 15588001456
-read_bytes: 13884432416
-object_bytes: 14039828352
+written_bytes: 60399845376
+read_bytes: 53799862272
+object_bytes: 54399860736
 
-Run time: 60.0s Ops: 25808247 TPS: 430110 Net_rate: 468.4M/s
+Run time: 249.2s Ops: 99999744 TPS: 401220 Net_rate: 437.0M/s
