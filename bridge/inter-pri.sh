@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NODE_CNT=4
+NODE_CNT=2
 FILE=./results/vethlist.txt
 VETH_LIST=()
 
@@ -23,9 +23,9 @@ done
 echo "" | dd status=none of=$FILE conv=notrunc oflag=append
 
 echo "Start BENCHMARK..."
-./intra-benchmark.sh &
+./inter-benchmark.sh &
 
-sleep 1
+sleep 1s
 
 echo "Sampling vCPU data..."
 ./vcpu.sh $NODE_CNT &

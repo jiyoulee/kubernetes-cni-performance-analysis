@@ -1,0 +1,6 @@
+Sampling veth9fd2f19 (60 seconds average)...[1G[2K11325679 packets sampled in 60 seconds
+Traffic average for veth9fd2f19
+
+      rx       455.31 Mbit/s         94555 packets/s
+      tx       504.87 Mbit/s         94206 packets/s
+
