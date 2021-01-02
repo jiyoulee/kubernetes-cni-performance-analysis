@@ -1,0 +1,6 @@
+Sampling vethade5d25 (60 seconds average)...[1G[2K13081411 packets sampled in 60 seconds
+Traffic average for vethade5d25
+
+      rx       526.45 Mbit/s         109069 packets/s
+      tx       583.92 Mbit/s         108953 packets/s
+

@@ -1,0 +1,6 @@
+Sampling vethdc990b6 (60 seconds average)...[1G[2K12973285 packets sampled in 60 seconds
+Traffic average for vethdc990b6
+
+      rx       522.14 Mbit/s         108154 packets/s
+      tx       579.16 Mbit/s         108066 packets/s
+

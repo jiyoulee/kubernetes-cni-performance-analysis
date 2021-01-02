@@ -1,6 +1,0 @@
-Sampling veth24a43d6 (60 seconds average)...[1G[2K13051064 packets sampled in 60 seconds
-Traffic average for veth24a43d6
-
-      rx       525.23 Mbit/s         108816 packets/s
-      tx       582.57 Mbit/s         108701 packets/s
-

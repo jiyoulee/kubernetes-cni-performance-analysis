@@ -1,0 +1,6 @@
+Sampling veth28274e2 (60 seconds average)...[1G[2K13086356 packets sampled in 60 seconds
+Traffic average for veth28274e2
+
+      rx       526.55 Mbit/s         109135 packets/s
+      tx       584.01 Mbit/s         108970 packets/s
+

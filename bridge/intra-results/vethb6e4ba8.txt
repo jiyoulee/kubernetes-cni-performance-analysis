@@ -1,6 +1,0 @@
-Sampling vethb6e4ba8 (60 seconds average)...[1G[2K12895072 packets sampled in 60 seconds
-Traffic average for vethb6e4ba8
-
-      rx       518.87 Mbit/s         107534 packets/s
-      tx       575.50 Mbit/s         107383 packets/s
-

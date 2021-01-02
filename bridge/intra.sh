@@ -39,6 +39,6 @@ done
 echo "Sampling pCPU data..."
 ./pcpu.sh &
 
-sleep 61
+sleep 69
 
 ./stop.sh

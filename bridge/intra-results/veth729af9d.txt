@@ -1,6 +1,0 @@
-Sampling veth729af9d (60 seconds average)...[1G[2K13020011 packets sampled in 60 seconds
-Traffic average for veth729af9d
-
-      rx       523.95 Mbit/s         108566 packets/s
-      tx       581.14 Mbit/s         108433 packets/s
-
