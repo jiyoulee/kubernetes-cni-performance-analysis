@@ -1,0 +1,6 @@
+Sampling veth67d52a4 (60 seconds average)...[1G[2K14257259 packets sampled in 60 seconds
+Traffic average for veth67d52a4
+
+      rx       573.85 Mbit/s         118860 packets/s
+      tx       636.52 Mbit/s         118760 packets/s
+
