@@ -1,0 +1,6 @@
+Sampling veth61941a3 (60 seconds average)...[1G[2K13105675 packets sampled in 60 seconds
+Traffic average for veth61941a3
+
+      rx       527.37 Mbit/s         109288 packets/s
+      tx       584.92 Mbit/s         109139 packets/s
+
