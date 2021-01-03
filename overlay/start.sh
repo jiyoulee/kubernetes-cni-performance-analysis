@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MEMORY=4096
-NETWORK=br-n-memcached
+NETWORK=ov-n-memcached
 NODE_CNT=$1
 PORT=11211
 THREAD_CNT=2
