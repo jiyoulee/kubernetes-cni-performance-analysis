@@ -1,0 +1,6 @@
+Sampling vethea56c6a (60 seconds average)...[1G[2K17895074 packets sampled in 60 seconds
+Traffic average for vethea56c6a
+
+      rx       453.35 Mbit/s         149500 packets/s
+      tx       797.17 Mbit/s         148750 packets/s
+
