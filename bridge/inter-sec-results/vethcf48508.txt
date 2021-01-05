@@ -1,6 +1,0 @@
-Sampling vethcf48508 (60 seconds average)...[1G[2K14216581 packets sampled in 60 seconds
-Traffic average for vethcf48508
-
-      rx       572.21 Mbit/s         118523 packets/s
-      tx       634.69 Mbit/s         118419 packets/s
-

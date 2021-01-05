@@ -1,6 +1,0 @@
-Sampling vetha904f21 (60 seconds average)...[1G[2K11496548 packets sampled in 60 seconds
-Traffic average for vetha904f21
-
-      rx       462.24 Mbit/s         95963 packets/s
-      tx       512.58 Mbit/s         95645 packets/s
-
