@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MEMORY=4096
+MEMORY=1024
 NETWORK=br-n-memcached
 NODE_CNT=$1
 PORT=11211
