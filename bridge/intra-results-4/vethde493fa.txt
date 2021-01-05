@@ -1,0 +1,6 @@
+Sampling vethde493fa (60 seconds average)...[1G[2K13641477 packets sampled in 60 seconds
+Traffic average for vethde493fa
+
+      rx       451.59 Mbit/s         113661 packets/s
+      tx       609.16 Mbit/s         113696 packets/s
+

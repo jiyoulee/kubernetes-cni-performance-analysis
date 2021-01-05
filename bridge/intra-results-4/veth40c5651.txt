@@ -1,0 +1,6 @@
+Sampling veth40c5651 (60 seconds average)...[1G[2K12963701 packets sampled in 60 seconds
+Traffic average for veth40c5651
+
+      rx       431.69 Mbit/s         108031 packets/s
+      tx       578.90 Mbit/s         108029 packets/s
+

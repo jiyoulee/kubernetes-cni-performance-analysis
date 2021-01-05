@@ -1,0 +1,6 @@
+Sampling vethcf37963 (60 seconds average)...[1G[2K13853166 packets sampled in 60 seconds
+Traffic average for vethcf37963
+
+      rx       458.13 Mbit/s         115440 packets/s
+      tx       618.67 Mbit/s         115445 packets/s
+
