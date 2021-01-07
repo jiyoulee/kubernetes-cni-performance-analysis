@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME=test2
+NAME=ping-test
 NETWORK=ov-n-memcached
 
 # Deploy container.
