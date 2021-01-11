@@ -1,0 +1,6 @@
+Sampling veth907abaf (60 seconds average)...[1G[2K20075129 packets sampled in 60 seconds
+Traffic average for veth907abaf
+
+      rx       807.73 Mbit/s         167422 packets/s
+      tx       895.88 Mbit/s         167162 packets/s
+

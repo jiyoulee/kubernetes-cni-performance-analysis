@@ -1,0 +1,6 @@
+Sampling vethc66d475 (60 seconds average)...[1G[2K13442833 packets sampled in 60 seconds
+Traffic average for vethc66d475
+
+      rx       541.17 Mbit/s         112023 packets/s
+      tx       600.32 Mbit/s         112023 packets/s
+

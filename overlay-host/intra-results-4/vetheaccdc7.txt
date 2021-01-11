@@ -1,0 +1,6 @@
+Sampling vetheaccdc7 (60 seconds average)...[1G[2K13630963 packets sampled in 60 seconds
+Traffic average for vetheaccdc7
+
+      rx       548.73 Mbit/s         113585 packets/s
+      tx       608.70 Mbit/s         113596 packets/s
+

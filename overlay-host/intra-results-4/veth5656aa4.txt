@@ -1,0 +1,6 @@
+Sampling veth5656aa4 (60 seconds average)...[1G[2K13449485 packets sampled in 60 seconds
+Traffic average for veth5656aa4
+
+      rx       541.40 Mbit/s         112071 packets/s
+      tx       600.58 Mbit/s         112086 packets/s
+
