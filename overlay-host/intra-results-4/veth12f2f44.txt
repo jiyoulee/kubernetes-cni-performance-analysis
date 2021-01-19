@@ -1,6 +1,0 @@
-Sampling veth12f2f44 (60 seconds average)...[1G[2K13304700 packets sampled in 60 seconds
-Traffic average for veth12f2f44
-
-      rx       535.63 Mbit/s         110870 packets/s
-      tx       594.18 Mbit/s         110874 packets/s
-

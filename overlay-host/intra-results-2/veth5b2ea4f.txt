@@ -1,6 +1,0 @@
-Sampling veth5b2ea4f (60 seconds average)...[1G[2K20448592 packets sampled in 60 seconds
-Traffic average for veth5b2ea4f
-
-      rx       822.29 Mbit/s         170656 packets/s
-      tx       911.89 Mbit/s         170153 packets/s
-
