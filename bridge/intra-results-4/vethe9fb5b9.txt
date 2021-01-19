@@ -1,6 +1,0 @@
-Sampling vethe9fb5b9 (60 seconds average)...[1G[2K13799103 packets sampled in 60 seconds
-Traffic average for vethe9fb5b9
-
-      rx       456.51 Mbit/s         114978 packets/s
-      tx       616.23 Mbit/s         115006 packets/s
-

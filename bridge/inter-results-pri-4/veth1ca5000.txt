@@ -1,6 +1,0 @@
-Sampling veth1ca5000 (60 seconds average)...[1G[2K18900757 packets sampled in 60 seconds
-Traffic average for veth1ca5000
-
-      rx       608.38 Mbit/s         157548 packets/s
-      tx       843.90 Mbit/s         157463 packets/s
-

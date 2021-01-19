@@ -1,6 +1,0 @@
-Sampling veth45f4850 (60 seconds average)...[1G[2K20827531 packets sampled in 60 seconds
-Traffic average for veth45f4850
-
-      rx       506.32 Mbit/s         173707 packets/s
-      tx       929.36 Mbit/s         173417 packets/s
-

@@ -1,6 +1,0 @@
-Sampling vethc550d1f (60 seconds average)...[1G[2K13628148 packets sampled in 60 seconds
-Traffic average for vethc550d1f
-
-      rx       451.13 Mbit/s         113608 packets/s
-      tx       608.47 Mbit/s         113527 packets/s
-

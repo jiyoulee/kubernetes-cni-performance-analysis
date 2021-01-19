@@ -1,6 +1,0 @@
-Sampling veth611d0fc (60 seconds average)...[1G[2K19094931 packets sampled in 60 seconds
-Traffic average for veth611d0fc
-
-      rx       614.21 Mbit/s         159183 packets/s
-      tx       852.51 Mbit/s         159065 packets/s
-

@@ -1,6 +1,0 @@
-Sampling vethb5ad460 (60 seconds average)...[1G[2K13654941 packets sampled in 60 seconds
-Traffic average for vethb5ad460
-
-      rx       451.95 Mbit/s         113815 packets/s
-      tx       609.74 Mbit/s         113767 packets/s
-

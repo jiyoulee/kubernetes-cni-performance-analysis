@@ -1,6 +1,0 @@
-Sampling veth55e5e9b (60 seconds average)...[1G[2K20436474 packets sampled in 60 seconds
-Traffic average for veth55e5e9b
-
-      rx       499.30 Mbit/s         170402 packets/s
-      tx       912.15 Mbit/s         170205 packets/s
-
