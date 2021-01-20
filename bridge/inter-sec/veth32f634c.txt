@@ -1,0 +1,6 @@
+Sampling veth32f634c (60 seconds average)...[1G[2K15381860 packets sampled in 60 seconds
+Traffic average for veth32f634c
+
+      rx         1.04 Gbit/s         128271 packets/s
+      tx       263.56 Mbit/s         128093 packets/s
+

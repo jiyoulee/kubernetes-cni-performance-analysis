@@ -1,0 +1,6 @@
+Sampling veth3acc6f9 (60 seconds average)...[1G[2K15409707 packets sampled in 60 seconds
+Traffic average for veth3acc6f9
+
+      rx         1.04 Gbit/s         128493 packets/s
+      tx       264.05 Mbit/s         128334 packets/s
+
