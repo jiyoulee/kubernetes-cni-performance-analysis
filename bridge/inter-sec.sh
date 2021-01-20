@@ -8,10 +8,6 @@ cd ./results/
 rm $(ls)
 cd ./../
 
-./start.sh $NODE_CNT
-
-sleep 1
-
 for container in $(docker ps --format '{{.Names}}'); do
     iflink=`docker exec -it $container bash -c 'cat /sys/class/net/eth0/iflink'`
     iflink=`echo $iflink|tr -d '\r'`
@@ -35,7 +31,3 @@ done
 
 echo "Sampling pCPU data..."
 ./pcpu.sh &
-
-sleep 69
-
-./stop.sh
