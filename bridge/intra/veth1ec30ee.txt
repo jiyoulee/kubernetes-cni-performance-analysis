@@ -1,0 +1,6 @@
+Sampling veth1ec30ee (60 seconds average)...[1G[2K19688985 packets sampled in 60 seconds
+Traffic average for veth1ec30ee
+
+      rx         1.33 Gbit/s         164260 packets/s
+      tx       337.19 Mbit/s         163889 packets/s
+
