@@ -1,16 +1,12 @@
 #!/bin/bash
 
-NODE_CNT=4
+NODE_CNT=3
 FILE=./results/vethlist.txt
 VETH_LIST=()
 
 cd ./results/
 rm $(ls)
 cd ./../
-
-./start.sh $NODE_CNT
-
-sleep 1
 
 for container in $(docker ps --format '{{.Names}}'); do
     iflink=`docker exec -it $container bash -c 'cat /sys/class/net/eth0/iflink'`
@@ -38,7 +34,3 @@ done
 
 echo "Sampling pCPU data..."
 ./pcpu.sh &
-
-sleep 69
-
-./stop.sh
