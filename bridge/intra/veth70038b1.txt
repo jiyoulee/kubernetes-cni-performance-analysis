@@ -1,0 +1,6 @@
+Sampling veth70038b1 (60 seconds average)...[1G[2K20265220 packets sampled in 60 seconds
+Traffic average for veth70038b1
+
+      rx         1.36 Gbit/s         169055 packets/s
+      tx       347.08 Mbit/s         168698 packets/s
+

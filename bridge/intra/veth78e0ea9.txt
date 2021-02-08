@@ -1,0 +1,6 @@
+Sampling veth78e0ea9 (60 seconds average)...[1G[2K40377609 packets sampled in 60 seconds
+Traffic average for veth78e0ea9
+
+      rx       691.68 Mbit/s         336189 packets/s
+      tx         2.72 Gbit/s         336771 packets/s
+

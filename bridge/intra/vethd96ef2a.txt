@@ -1,6 +1,0 @@
-Sampling vethd96ef2a (60 seconds average)...[1G[2K39229935 packets sampled in 60 seconds
-Traffic average for vethd96ef2a
-
-      rx       671.81 Mbit/s         326531 packets/s
-      tx         2.64 Gbit/s         327300 packets/s
-

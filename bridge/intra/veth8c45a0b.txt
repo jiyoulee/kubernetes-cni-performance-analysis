@@ -1,0 +1,6 @@
+Sampling veth8c45a0b (60 seconds average)...[1G[2K20115606 packets sampled in 60 seconds
+Traffic average for veth8c45a0b
+
+      rx         1.35 Gbit/s         167743 packets/s
+      tx       344.65 Mbit/s         167516 packets/s
+

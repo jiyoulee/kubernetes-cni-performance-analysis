@@ -1,6 +1,0 @@
-Sampling veth00d3413 (60 seconds average)...[1G[2K19539256 packets sampled in 60 seconds
-Traffic average for veth00d3413
-
-      rx         1.32 Gbit/s         163025 packets/s
-      tx       334.60 Mbit/s         162628 packets/s
-
