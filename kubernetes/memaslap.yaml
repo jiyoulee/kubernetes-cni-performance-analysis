@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: memaslap
+        labels:
+                app: memaslap
+spec:
+        replicas: 1
+        selector:
+                matchLabels:
+                        app: memaslap
+        template:
+                metadata:
+                        labels:
+                                app: memaslap
+                spec:
+                        containers:
+                                - name: memaslap
+                                  image: jiyoulee/memaslap:default
+                                  command: ["/bin/bash"]
+                                  stdin: true
+                                  tty: true 
