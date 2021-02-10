@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: memcached
+        labels:
+                app: memcached
+spec:
+        replicas: 2
+        selector:
+                matchLabels:
+                        app: memcached
+        template:
+                metadata:
+                        labels:
+                                app: memcached
+                spec:
+                        containers:
+                                - name: memcached
+                                  image: jiyoulee/memcached:1.4
+                                  ports:
+                                          - containerPort: 11211
+                                            protocol: UDP
+                                  command: ["memcached"]
+                                  args:
+                                          - "-m"
+                                          - "1025"
+                                          - "-U"
+                                          - "11211"
+                                          - "-t"
+                                          - "2"
+                                  resources:
+                                          requests:
+                                                  cpu: 1
+                                          limits:
+                                                  cpu: 4 
