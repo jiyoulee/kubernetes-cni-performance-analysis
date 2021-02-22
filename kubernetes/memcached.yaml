@@ -16,7 +16,7 @@ spec:
                 spec:
                         containers:
                                 - name: memcached
-                                  image: jiyoulee/memcached:1.4
+                                  image: jiyoulee/memcached:1.4.1
                                   ports:
                                           - containerPort: 11211
                                             protocol: UDP
@@ -32,4 +32,6 @@ spec:
                                           requests:
                                                   cpu: 1
                                           limits:
-                                                  cpu: 4 
+                                                  cpu: 4
+                        nodeSelector:
+                                server: "3"

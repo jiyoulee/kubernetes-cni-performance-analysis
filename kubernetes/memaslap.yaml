@@ -19,4 +19,6 @@ spec:
                                   image: jiyoulee/memaslap:default
                                   command: ["/bin/bash"]
                                   stdin: true
-                                  tty: true 
+                                  tty: true
+                        nodeSelector:
+                                server: "4"
