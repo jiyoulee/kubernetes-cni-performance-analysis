@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MEMC1_ID=ee85577a7b7f
-MEMC2_ID=2b4650d1b99d
+MEMC1_ID=2f17d5aa7321
+MEMC2_ID=9a9ef80c6341
 
 for (( i=1; i<=60; i++));
 do

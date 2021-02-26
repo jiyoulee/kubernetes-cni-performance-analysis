@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MEMA_ID=b08149dedeef
+MEMA_ID=45afa5dd7efb
 
 for (( i=1; i<=60; i++));
 do
