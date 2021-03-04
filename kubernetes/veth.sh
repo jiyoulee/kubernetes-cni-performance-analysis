@@ -1,8 +1,8 @@
 #!/bin/bash
 
-MEMA_NAME=memaslap-854f66c954-5xq9r
-MEMC1_NAME=memcached-bf5f768cb-92cpl
-MEMC2_NAME=memcached-bf5f768cb-7slwk
+MEMA_NAME=memaslap-854f66c954-wmxfm
+MEMC1_NAME=memcached-bf5f768cb-2fpnb
+MEMC2_NAME=memcached-bf5f768cb-n7z6f
 
 kubectl exec $MEMA_NAME -- bash -c 'vnstat -i eth0 -tr 60' | dd status=none of=./results/veth_mema.txt conv=notrunc oflag=append &
 kubectl exec $MEMC1_NAME -- bash -c 'vnstat -i eth0 -tr 60' | dd status=none of=./results/veth_memc1.txt conv=notrunc oflag=append &
