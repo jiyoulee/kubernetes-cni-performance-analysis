@@ -5,11 +5,11 @@ run time: 70s
 windows size: 10k
 set proportion: set_prop=0.10
 get proportion: get_prop=0.90
-cmd_get: 7578655
-cmd_set: 842314
+cmd_get: 7578485
+cmd_set: 842277
 get_misses: 0
-written_bytes: 1610236272
-read_bytes: 7992453840
-object_bytes: 916437632
+written_bytes: 1610178840
+read_bytes: 7992275140
+object_bytes: 916397376
 
-Run time: 70.0s Ops: 8420969 TPS: 120288 Net_rate: 130.8M/s
+Run time: 70.0s Ops: 8420762 TPS: 120289 Net_rate: 130.8M/s
