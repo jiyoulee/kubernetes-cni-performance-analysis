@@ -1,8 +1,8 @@
 #!/bin/bash
 
-MEMA_NAME=memaslap-854f66c954-wmxfm
-MEMC1_NAME=memcached-bf5f768cb-2fpnb
-MEMC2_NAME=memcached-bf5f768cb-n7z6f
+MEMA_NAME=memaslap-dd45d7998-76kxk
+MEMC1_NAME=memcached-7bb58df7f7-gx97p
+MEMC2_NAME=memcached-7bb58df7f7-hlgcz
 
 kubectl exec $MEMA_NAME -- bash -c 'vnstat -i eth0 -tr 60' | dd status=none of=./results/veth_mema.txt conv=notrunc oflag=append &
 kubectl exec $MEMC1_NAME -- bash -c 'vnstat -i eth0 -tr 60' | dd status=none of=./results/veth_memc1.txt conv=notrunc oflag=append &
@@ -10,4 +10,4 @@ kubectl exec $MEMC2_NAME -- bash -c 'vnstat -i eth0 -tr 60' | dd status=none of=
 
 sleep 60s
 
-echo "Sampling vNETWORK done..."
+echo "[DONE] Sampling vNETWORK"

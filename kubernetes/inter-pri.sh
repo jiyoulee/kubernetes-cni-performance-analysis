@@ -4,16 +4,19 @@ cd ./results/
 rm $(ls)
 cd ./../
 
-echo "Start BENCHMARK..."
+echo "[START] Memaslap"
 ./inter-benchmark.sh &
 
 sleep 1s
 
-echo "Sampling vCPU data..."
+echo "[START] Sampling vCPU data"
 ./vcpu-pri.sh &
 
-echo "Sampling vNETWORK data..."
+echo "[START] Sampling vNETWORK data"
 ./veth.sh &
 
-echo "Sampling pCPU data..."
+echo "[START] Sampling pCPU data"
 ./pcpu.sh &
+
+echo "[START] Profiling"
+./perf.sh &

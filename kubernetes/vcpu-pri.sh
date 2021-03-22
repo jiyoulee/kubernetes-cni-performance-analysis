@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MEMA_ID=904330b9ee95
+MEMA_ID=4efda44b6d42
 
 for (( i=1; i<=60; i++));
 do
@@ -8,4 +8,4 @@ do
 	sleep 1s;
 done
 
-echo "Sampling vCPU done..."
+echo "[DONE] Sampling vCPU"
