@@ -6,8 +6,11 @@ cd ./../
 
 sleep 1
 
-echo "Sampling vCPU data..."
+echo "[START] Sampling vCPU data"
 ./vcpu-sec.sh &
 
-echo "Sampling pCPU data..."
+echo "[START] Sampling pCPU data"
 ./pcpu.sh &
+
+echo "[START] Profiling"
+./perf.sh &

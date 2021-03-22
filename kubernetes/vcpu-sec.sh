@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MEMC1_ID=564489e568b2
-MEMC2_ID=fb46ffcef4e3
+MEMC1_ID=b7e8cf2e91d4
+MEMC2_ID=a65dd57606b0
 
 for (( i=1; i<=60; i++));
 do
@@ -10,4 +10,4 @@ do
 	sleep 1s;
 done
 
-echo "Sampling vCPU done..."
+echo "[DONE] Sampling vCPU"
