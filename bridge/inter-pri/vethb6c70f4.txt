@@ -1,0 +1,6 @@
+Sampling vethb6c70f4 (60 seconds average)...[1G[2K486 packets sampled in 60 seconds
+Traffic average for vethb6c70f4
+
+      rx         3.12 kbit/s             4 packets/s
+      tx         3.12 kbit/s             4 packets/s
+
