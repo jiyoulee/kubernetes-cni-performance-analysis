@@ -18,19 +18,22 @@ for container in $(docker ps --format '{{.Names}}'); do
 done
 echo "" | dd status=none of=$FILE conv=notrunc oflag=append
 
-echo "Start BENCHMARK..."
+echo "[START] Memaslap"
 ./inter-benchmark.sh &
 
 sleep 1
 
-echo "Sampling vCPU data..."
+echo "[START] Sampling vCPU data"
 ./vcpu.sh $NODE_CNT &
 
-echo "Sampling vNETWORK data..."
+echo "[START] Sampling vNETWORK data"
 for i in ${VETH_LIST[@]}
 do 
     ./veth.sh $i &
 done
 
-echo "Sampling pCPU data..."
+echo "[START] Sampling pCPU data"
 ./pcpu.sh &
+
+echo "[START] Profiling"
+./perf.sh &

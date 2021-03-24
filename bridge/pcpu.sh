@@ -4,4 +4,4 @@ mpstat -P ALL 1 60 | dd status=none of=./results/pcpu.txt conv=notrunc oflag=app
 
 sleep 60s
 
-echo "Sampling pCPU done..."
+echo "[DONE] Sampling pCPU"

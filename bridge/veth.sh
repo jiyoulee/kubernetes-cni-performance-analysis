@@ -9,4 +9,4 @@ done
 
 sleep 60s
 
-echo "Sampling vNETWORK done..."
+echo "[DONE] Sampling vNETWORK"

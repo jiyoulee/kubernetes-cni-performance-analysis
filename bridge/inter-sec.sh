@@ -20,14 +20,17 @@ echo "" | dd status=none of=$FILE conv=notrunc oflag=append
 
 sleep 1
 
-echo "Sampling vCPU data..."
+echo "[START] Sampling vCPU data"
 ./vcpu.sh $NODE_CNT &
 
-echo "Sampling vNETWORK data..."
+echo "[START] Sampling vNETWORK dat"
 for i in ${VETH_LIST[@]}
 do 
     ./veth.sh $i &
 done
 
-echo "Sampling pCPU data..."
+echo "[START] Sampling pCPU dat"
 ./pcpu.sh &
+
+echo "[START] Profiling"
+./perf.sh &

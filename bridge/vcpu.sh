@@ -11,4 +11,4 @@ do
 	sleep 1s;
 done
 
-echo "Sampling vCPU done..."
+echo "[DONE] Sampling vCPU"
