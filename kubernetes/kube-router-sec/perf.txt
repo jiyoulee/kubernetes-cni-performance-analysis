@@ -1,0 +1,2 @@
+[ perf record: Woken up 1382 times to write data ]
+[ perf record: Captured and wrote 347.888 MB perf.data (1509564 samples) ]
