@@ -13,5 +13,5 @@ docker exec m1 /memcached_bench/libmemcached-1.0.15/clients/memaslap -B -c ${CON
 
 # ./../../memcached_bench/libmemcached-1.0.15/clients/memaslap -B -c ${CONCURRENCY} -s ${IPADDR1}:${PORT},${IPADDR2}:${PORT},${IPADDR3}:${PORT},${IPADDR4}:${PORT} -T ${THREADS} | dd status=none of=$FILE conv=notrunc oflag=append
 
-echo "BENCHMARK done..."
+echo "[DONE] Memaslap"
 
