@@ -1,0 +1,6 @@
+Sampling veth44c48ac (60 seconds average)...[1G[2K7231071 packets sampled in 60 seconds
+Traffic average for veth44c48ac
+
+      rx       489.37 Mbit/s         60263 packets/s
+      tx       123.98 Mbit/s         60254 packets/s
+

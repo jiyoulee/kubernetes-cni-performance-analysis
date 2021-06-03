@@ -1,0 +1,6 @@
+Sampling veth1e0be6a (60 seconds average)...[1G[2K7203935 packets sampled in 60 seconds
+Traffic average for veth1e0be6a
+
+      rx       487.55 Mbit/s         60034 packets/s
+      tx       123.52 Mbit/s         60031 packets/s
+
