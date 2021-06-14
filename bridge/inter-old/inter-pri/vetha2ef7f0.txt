@@ -1,6 +1,0 @@
-Sampling vetha2ef7f0 (60 seconds average)...[1G[2K30633923 packets sampled in 60 seconds
-Traffic average for vetha2ef7f0
-
-      rx       524.90 Mbit/s         255115 packets/s
-      tx         2.07 Gbit/s         255449 packets/s
-
