@@ -1,0 +1,6 @@
+Sampling veth7aad98b (60 seconds average)...[1G[2K15247527 packets sampled in 60 seconds
+Traffic average for veth7aad98b
+
+      rx         1.03 Gbit/s         127072 packets/s
+      tx       261.43 Mbit/s         127052 packets/s
+

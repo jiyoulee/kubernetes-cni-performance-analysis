@@ -1,0 +1,6 @@
+Sampling eno1 (60 seconds average)...[1G[2K14407080 packets sampled in 60 seconds
+Traffic average for eno1
+
+      rx       974.60 Mbit/s         120057 packets/s
+      tx       246.99 Mbit/s         120060 packets/s
+

@@ -1,0 +1,6 @@
+Sampling vethcc1d1d0 (60 seconds average)...[1G[2K14857240 packets sampled in 60 seconds
+Traffic average for vethcc1d1d0
+
+      rx         1.01 Gbit/s         123812 packets/s
+      tx       254.75 Mbit/s         123808 packets/s
+
