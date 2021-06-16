@@ -3,7 +3,7 @@
 
 DIR=$1
 
-echo "[START] PCPU"
+echo "[SAMPLE] PCPU"
 
 mpstat -P ALL 1 60 | dd status=none of=$DIR/pcpu.txt conv=notrunc oflag=append &
 

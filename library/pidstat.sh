@@ -4,7 +4,7 @@
 
 DIR=$1
 
-echo "[START] PIDSTAT"
+echo "[SAMPLE] PIDSTAT"
 
 pidstat -G memaslap -t 30 2 >> $DIR/pidstat_mema.txt
 

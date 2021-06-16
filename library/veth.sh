@@ -5,7 +5,7 @@
 DIR=$2
 NODE_CNT=$1
 
-echo "[START] VETH"
+echo "[SAMPLE] VETH"
 
 for (( i=1; i<=$NODE_CNT; i++ ));
 do

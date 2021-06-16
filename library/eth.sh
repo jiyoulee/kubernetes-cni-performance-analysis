@@ -5,7 +5,7 @@
 DIR=$2
 INTERFACE=$1
 
-echo "[START] ETH"
+echo "[SAMPLE] ETH"
 
 vnstat -i eno1 -tr 60 | dd status=none of=$DIR/eth.txt conv=notrunc oflag=append &
 
