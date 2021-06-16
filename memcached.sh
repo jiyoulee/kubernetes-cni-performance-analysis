@@ -1,7 +1,9 @@
 #!/bin/bash
+#
+# Description: A script for running Memcached server containers. Receives the number of containers to run as the network to attach them to as arguments, in respective order.
 
 MEMORY=1024
-NETWORK=br-n-memcached
+NETWORK=$2
 NODE_CNT=$1
 PORT=11211
 THREAD_CNT=2
