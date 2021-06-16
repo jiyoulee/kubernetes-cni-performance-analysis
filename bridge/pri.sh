@@ -3,6 +3,7 @@
 # Description:
 
 DIR=./../results/bridge-pri
+PERF_FILE=perf_bridge_pri
 
 # Create/refresh results directory.
 rm -rf $DIR
@@ -16,7 +17,7 @@ sleep 1
 ./../pcpu.sh $DIR &
 ./../pidstat.sh $DIR &
 ./../eth.sh $DIR &
-./../perf.sh &
+./../perf.sh $PERF_FILE &
 
 # cat out.perf-folded | ./flamegraph.pl > perf_bridge.svg
 
