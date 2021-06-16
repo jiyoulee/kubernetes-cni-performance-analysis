@@ -1,6 +1,0 @@
-Sampling vetha1ed882 (60 seconds average)...[1G[2K12007444 packets sampled in 60 seconds
-Traffic average for vetha1ed882
-
-      rx       811.49 Mbit/s         100204 packets/s
-      tx       205.59 Mbit/s         99920 packets/s
-

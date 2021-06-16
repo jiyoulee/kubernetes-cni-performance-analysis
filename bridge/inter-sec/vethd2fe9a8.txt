@@ -1,6 +1,0 @@
-Sampling vethd2fe9a8 (60 seconds average)...[1G[2K11000841 packets sampled in 60 seconds
-Traffic average for vethd2fe9a8
-
-      rx       743.52 Mbit/s         91795 packets/s
-      tx       188.37 Mbit/s         91551 packets/s
-
