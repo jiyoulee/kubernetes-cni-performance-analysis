@@ -3,6 +3,7 @@
 # Description:
 
 DIR=./../results/bridge-pri
+INTERFACE=eno1
 PERF_FILE=perf_bridge_pri
 
 # Create/refresh results directory.
@@ -16,7 +17,7 @@ sleep 1
 # Sample performance and resource consumption status.
 ./../pcpu.sh $DIR &
 ./../pidstat.sh $DIR &
-./../eth.sh $DIR &
+./../eth.sh $INTERFACE $DIR &
 ./../perf.sh $PERF_FILE &
 
 # cat out.perf-folded | ./flamegraph.pl > perf_bridge.svg
