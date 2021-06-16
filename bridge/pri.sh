@@ -11,14 +11,14 @@ rm -rf $DIR
 mkdir $DIR
 
 # Start Memaslap benchmark.
-./../bench_host.sh 172.32.0.2 172.32.0.3 $DIR &
+./../library/bench_host.sh 172.32.0.2 172.32.0.3 $DIR &
 sleep 1
 
 # Sample performance and resource consumption status.
-./../pcpu.sh $DIR &
-./../pidstat.sh $DIR &
-./../eth.sh $INTERFACE $DIR &
-./../perf.sh $PERF_FILE &
+./../library/pcpu.sh $DIR &
+./../library/pidstat.sh $DIR &
+./../library/eth.sh $INTERFACE $DIR &
+./../library/perf.sh $PERF_FILE &
 
 # cat out.perf-folded | ./flamegraph.pl > perf_bridge.svg
 

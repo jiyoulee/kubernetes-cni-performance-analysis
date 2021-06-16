@@ -14,9 +14,9 @@ mkdir $DIR
 sleep 1
 
 # Sample performance and resource consumption status.
-./../vcpu.sh $NODE_CNT $DIR &
-./../veth.sh $NODE_CNT $DIR &
-./../pcpu.sh $DIR &
-./../perf.sh $PERF_FILE &
+./../library/vcpu.sh $NODE_CNT $DIR &
+./../library/veth.sh $NODE_CNT $DIR &
+./../library/pcpu.sh $DIR &
+./../library/perf.sh $PERF_FILE &
 
 # cat out.perf-folded | ./flamegraph.pl > $PERF_FILE.svg
