@@ -3,7 +3,7 @@
 DIR=$2
 NODE_CNT=$1
 
-echo "[SAMPle] VCPU"
+echo "[SAMPLE] VCPU"
 
 for (( i=1; i<=60; i++));
 do
