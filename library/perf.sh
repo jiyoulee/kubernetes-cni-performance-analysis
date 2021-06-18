@@ -13,6 +13,6 @@ if [ -f "./../cni-perf/FlameGraph/perf.data" ]; then
 fi
 sudo mv perf.data ./../cni-perf/FlameGraph/ &&
 cd ./../cni-perf/FlameGraph &&
-sudo perf script | ./stackcollapse-perf.pl > out.perf-folded
+sudo perf script | ./stackcollapse-perf.pl > out.perf-folded &&
 
 echo "[DONE] PERF"
