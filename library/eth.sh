@@ -7,7 +7,7 @@ INTERFACE=$1
 
 echo "[SAMPLE] ETH"
 
-vnstat -i eno1 -tr 60 | dd status=none of=$DIR/eth.txt conv=notrunc oflag=append &
+vnstat -i $INTERFACE -tr 60 | dd status=none of=$DIR/eth.txt conv=notrunc oflag=append &
 
 sleep 60s
 
