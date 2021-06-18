@@ -17,10 +17,10 @@ mkdir $DIR
 sleep 1
 
 # Sample performance and resource consumption status.
-./../library/pcpu.sh $DIR &
-./../library/pidstat.sh $DIR &
 ./../library/eth.sh $INTERFACE $DIR &
+./../library/pcpu.sh $DIR &
 ./../library/perf.sh $PERF_FILE &
+./../library/pidstat.sh $DIR &
 
 # cat out.perf-folded | ./flamegraph.pl > perf_bridge.svg
 
