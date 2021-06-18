@@ -5,13 +5,15 @@
 DIR=./../results/bridge-pri
 INTERFACE=eno1
 PERF_FILE=perf_bridge_pri
+MCHD1_IP=172.32.0.2
+MCHD2_IP=172.32.0.3
 
 # Create/refresh results directory.
 rm -rf $DIR
 mkdir $DIR
 
 # Start Memaslap benchmark.
-./../library/bench_host.sh 172.32.0.2 172.32.0.3 $DIR &
+./../library/bench_host.sh $MCHD1_IP $MCHD2_IP $DIR &
 sleep 1
 
 # Sample performance and resource consumption status.
