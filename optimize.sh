@@ -2,7 +2,7 @@
 
 DEV=ens11f1
 
-../8875474/set_irq_affinity.sh $DEV
+./8875474/set_irq_affinity.sh $DEV
 echo 32768 > /proc/sys/net/core/rps_sock_flow_entries
 for i in $(seq 0 9)
 do
