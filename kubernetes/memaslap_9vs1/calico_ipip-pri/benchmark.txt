@@ -1,0 +1,15 @@
+servers : 10.244.141.194:11211,10.244.141.193:11211
+threads count: 16
+concurrency: 512
+run time: 70s
+windows size: 10k
+set proportion: set_prop=0.90
+get proportion: get_prop=0.10
+cmd_get: 1067659
+cmd_set: 9607136
+get_misses: 0
+written_bytes: 10853417248
+read_bytes: 860390064
+object_bytes: 10452563968
+
+Run time: 70.0s Ops: 10674795 TPS: 152487 Net_rate: 159.6M/s
