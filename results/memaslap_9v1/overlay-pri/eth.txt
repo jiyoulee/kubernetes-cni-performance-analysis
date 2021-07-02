@@ -1,0 +1,6 @@
+Sampling ens11f1 (60 seconds average)...[1G[2K23910475 packets sampled in 60 seconds
+Traffic average for ens11f1
+
+      rx       309.82 Mbit/s         199241 packets/s
+      tx         1.81 Gbit/s         199266 packets/s
+
