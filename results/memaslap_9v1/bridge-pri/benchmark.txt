@@ -1,0 +1,15 @@
+servers : 172.32.0.2:11211,172.32.0.3:11211
+threads count: 16
+concurrency: 512
+run time: 70s
+windows size: 10k
+set proportion: set_prop=0.90
+get proportion: get_prop=0.10
+cmd_get: 1653065
+cmd_set: 14875659
+get_misses: 0
+written_bytes: 16805685960
+read_bytes: 1214043217
+object_bytes: 16184716992
+
+Run time: 70.0s Ops: 16528724 TPS: 236110 Net_rate: 245.5M/s
